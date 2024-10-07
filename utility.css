@@ -1,0 +1,110 @@
+.border{
+    border: 2px solid red;
+    margin: 3px;
+}
+
+.flex{
+    display: flex;
+}
+
+.justify-center{
+    justify-content: center;
+}
+
+.align-items-center{
+    align-items: center;
+}
+.bg-black {
+    color: white;
+    background-color: black;
+}
+
+.invert{
+    filter: invert(1);
+}
+
+
+.bg-gray{
+    background-color: #121212;
+}
+
+.rounded{
+    border-radius: 7px;
+}
+
+.p1{
+    padding: 10px;
+}
+.m1 {
+    margin: 9px;
+}
+
+.right-custom-margin{
+    margin-top: 9px;
+    margin-right: 9px;
+    padding: 0;
+}
+
+.felx-custom-nav{
+    display: flex;
+    flex-direction: row;
+}
+
+.rounded-custom-header{
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+}
+
+.breker-login{
+    width: 32px
+}
+
+
+::-webkit-scrollbar {
+    width: 12px;
+    border-radius: 100%; 
+    
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background-color: #333; /* Dark color for the thumb */
+    border-radius: 6px;
+  }
+  
+  ::-webkit-scrollbar-thumb:hover {
+    background: #777; /* Color of the scrollbar thumb when hovered */
+}
+
+  ::-webkit-scrollbar-track {
+    background-color: #222;
+    border-radius: 20px;
+    
+  }
+
+@media (max-width:1400px) {
+    .right-custom-margin{
+        margin-top: 0px;
+        margin-right: 0px;
+        padding: 0;
+    }
+    
+}
+@media (max-width:450px) {
+    .right-custom-margin{
+        margin-top: 0px;
+        margin-right: 0px;
+        padding: 0;
+    }
+    
+}
+@media (max-width:400px) {
+    .right-custom-margin{
+        margin-top: 0px;
+        margin-right: 0px;
+        padding: 0;
+    }
+    
+}
+  
